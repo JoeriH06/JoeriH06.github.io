@@ -2,17 +2,17 @@ body {
     background-color: black;
 }
 h1 {
-    color: aquamarine;
+    color: #e1bcebe0;
 }
 p   {
-    color: aquamarine;
+    color: #e1bcebe0;
 }
 main, footer {
-    color:bisque;
+    color:#e1bcebe0;
 }
 img {
     max-width: 500px;
-    max-height: 450px;
+    max-height: 450px;®
     width: auto;
     height: auto;
 }
