@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(237, 8, 8);
 }
 h1 {
     color: #e1bcebe0;
@@ -12,7 +12,7 @@ main, footer {
 }
 img {
     max-width: 500px;
-    max-height: 450px;®
+    max-height: 450px;
     width: auto;
     height: auto;
 }
