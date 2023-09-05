@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: aquamarine;
+}
+p   {
+    color: aquamarine;
+}
+main, footer {
+    color:bisque;
+}
+img {
+    max-width: 500px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+}
