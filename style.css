@@ -120,3 +120,8 @@ ul{
     padding: 0.5em;
   }
 
+table{
+    color: #e1bcebe0;
+    margin-left: auto;
+    margin-right: auto;
+}
