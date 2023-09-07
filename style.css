@@ -14,7 +14,11 @@ h1 {
 }
 p   {
     color: #e1bcebe0;
-}profile.css
+}
+
+details{
+    color: #e1bcebe0;
+}
 main, footer {
     color:#e1bcebe0;
 }
