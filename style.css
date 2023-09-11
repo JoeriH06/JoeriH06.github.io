@@ -182,3 +182,20 @@ a:hover {
   color: #e1bcebe0;
   text-align: center;
 }
+
+
+.feedback{
+  margin-top: 0%;
+  padding: auto;
+  white-space: pre-line;
+  line-height: 1.0;
+}
+
+.feedbackH1{
+  padding: auto;
+  margin-bottom: 0%;
+}
+
+.ulfeedback{
+  padding: auto;
+}
