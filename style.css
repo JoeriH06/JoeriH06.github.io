@@ -110,6 +110,22 @@ ul{
     margin-left: 35px;
   }
 
+  .image8{
+    max-width: 3%;
+    max-height: auto;
+    border-radius: 22px;
+    display: inline-block;
+    margin-left: 35px;
+  }
+  .image9{
+    max-width: 4%;
+    max-height: auto;
+    border-radius: 2px;
+    display: inline-block;
+    margin-left: 35px;
+    margin-bottom: -0.5%;
+  }
+
 table{
     color: #e1bcebe0;
     margin-left: auto;
@@ -247,7 +263,7 @@ label{
   overflow: hidden;
 }
 .circle.per- {
-  background-image: conic-gradient(#B5838D 0%, #FFCDB2 0);
+  background-image: conic-gradient(#B5838D 30%, #FFCDB2 0);
 }
 
 .circle .inner {
