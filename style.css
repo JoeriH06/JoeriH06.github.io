@@ -220,4 +220,50 @@ footer{
 
 label{
   color: #e1bcebe0;
+  font-family: 'Courier New', Courier, monospace;
 }
+
+.tableEC{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.wrap-circles {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1rem;
+  background: #000;
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-top: -45%;
+  border-radius: 50%;
+  background: #FFCDB2;
+  overflow: hidden;
+}
+.circle.per- {
+  background-image: conic-gradient(#B5838D 0%, #FFCDB2 0);
+}
+
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: #000;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+}
+
