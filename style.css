@@ -97,6 +97,17 @@ ul{
     padding: 0.5em;
   }
 
+  .image6{
+    max-width: 10%;
+    max-height: auto;
+  }
+
+  .image7{
+    max-width: 3%;
+    max-height: auto;
+    border-radius: 22px;
+  }
+
 table{
     color: #e1bcebe0;
     margin-left: auto;
