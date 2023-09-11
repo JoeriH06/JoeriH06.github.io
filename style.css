@@ -125,7 +125,26 @@ ul{
     margin-left: 35px;
     margin-bottom: -0.5%;
   }
+/* immage discepline */
+  .image10{
+   flex-basis: 40%;
+   max-width: 100%;
+   padding-bottom: 23%;
+  }
 
+  .container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text4{
+    font-size: 20px; 
+    padding-left: 20px;
+    color: #e1bcebe0;
+    padding-top: 1.5%;
+  }
+/* end discepline */
 table{
     color: #e1bcebe0;
     margin-left: auto;
@@ -263,7 +282,7 @@ label{
   overflow: hidden;
 }
 .circle.per- {
-  background-image: conic-gradient(#B5838D 30%, #FFCDB2 0);
+  background-image: conic-gradient(#B5838D 10%, #FFCDB2 0);
 }
 
 .circle .inner {
