@@ -29,10 +29,6 @@ main, footer {
     color:#e1bcebe0;
 }
 
-.fieldset1{
-  color: #e1bcebe0;
-}
-
 ol{
     color: #e1bcebe0;
   }
@@ -41,16 +37,24 @@ ul{
   color: #e1bcebe0;
 }
 
+/*profile*/
  .text1{
   text-align: left;
   color: #e1bcebe0;
  }
 
- .text3{
+/* messi */
+ .text2{
     color: #e1bcebe0;
  }
  
+ /* earthtext index */
+ .text3{
+  color: #e1bcebe0;
+  float: left;
+}
 
+/*phyton game*/
  .image1{
     border-radius: 50px;
     width: 20%;
@@ -60,6 +64,8 @@ ul{
     margin: 0.5em;
     padding: 0.5em;
   }
+
+  /*iceland picture*/
   .image2{
     border-radius: 50px;
     width: 44%;
@@ -68,14 +74,8 @@ ul{
     border: thin silver solid;
     padding: 0.5em;
   }
-  .container5{
-    float: right;
-  }
-  .earthtext{
-    color: #e1bcebe0;
-    float: left;
-  }
-  
+
+  /* gometown */
   .image3{
     border-radius: 50px;
     width: 50%;
@@ -85,7 +85,8 @@ ul{
     margin: 0.5em;
     padding: 0.5em;
   }
-
+  
+  /* bram profile*/
   .image4{
     vertical-align: auto;
     border-radius: 50px;
@@ -97,6 +98,7 @@ ul{
     padding: 0.5em;
   }
 
+  /*messi*/
   .image5{
     vertical-align: auto;
     border-radius: 50px;
@@ -108,11 +110,13 @@ ul{
     padding: 0.5em;
   }
 
+  /*hz logo*/
   .image6{
     max-width: 10%;
     max-height: auto;
   }
 
+  /* insta logo*/
   .image7{
     max-width: 3%;
     max-height: auto;
@@ -121,6 +125,7 @@ ul{
     margin-left: 35px;
   }
 
+  /* facebook*/
   .image8{
     max-width: 3%;
     max-height: auto;
@@ -128,6 +133,8 @@ ul{
     display: inline-block;
     margin-left: 35px;
   }
+
+  /* linkdin*/
   .image9{
     max-width: 4%;
     max-height: auto;
@@ -136,6 +143,7 @@ ul{
     margin-left: 35px;
     margin-bottom: -0.5%;
   }
+
 /* immage discepline */
   .image10{
    flex-basis: 40%;
@@ -149,6 +157,11 @@ ul{
     justify-content: center;
   }
 
+  .container5{
+    float: right;
+  }
+  
+
   .text4{
     font-size: 20px; 
     padding-left: 20px;
@@ -156,6 +169,8 @@ ul{
     padding-top: 1.5%;
   }
 /* end discepline */
+
+
 table{
     color: #e1bcebe0;
     margin-left: auto;
