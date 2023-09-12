@@ -54,6 +54,26 @@ ul{
   float: left;
 }
 
+/* padding for text on index page */
+.text5{
+  padding: 1%;
+}
+
+/* text blog flatline agency */
+.text6{
+  text-align: center;
+  color: #e1bcebe0;
+  font-size: larger;
+  padding: 1%;
+  
+}
+
+.text6 ul{
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
 /*phyton game*/
  .image1{
     border-radius: 50px;
@@ -129,7 +149,7 @@ ul{
   .image8{
     max-width: 3%;
     max-height: auto;
-    border-radius: 22px;
+    border-radius: 28px;
     display: inline-block;
     margin-left: 35px;
   }
@@ -333,7 +353,3 @@ footer{
 }
 /*End of percentage circle */
 
-/* padding for text on index page */
-.text5{
-  padding: 1%;
-}
