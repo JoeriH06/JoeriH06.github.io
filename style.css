@@ -207,6 +207,7 @@ table{
   z-index: 99;
   position: relative;
   background-color: #04AA6D;
+  overflow: hidden;
 }
 
 .navbar {
