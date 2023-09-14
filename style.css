@@ -1,11 +1,13 @@
+main{
+  margin-top: 80px;
+}
 body {
     background-color: rgb(0, 0, 0);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-        display: flex; 
-        flex-direction: column;
-        min-height: 100vh;
-       
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh; 
 }
 
 a{
@@ -13,44 +15,14 @@ a{
 }
 
 h1 {
-    color: #e1bcebe0;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    z-index: 999;
+    margin-top: 70px;
 }
 
-p   {
-    color: #e1bcebe0;
-}
-
-details{
-    color: #e1bcebe0;
-}
-
-main, footer {
-    color:#e1bcebe0;
-}
-
-ol{
-    color: #e1bcebe0;
-  }
-
-ul{
-  color: #e1bcebe0;
-}
-
-/*profile*/
- .text1{
-  text-align: left;
-  color: #e1bcebe0;
- }
-
-/* messi */
- .text2{
-    color: #e1bcebe0;
- }
- 
  /* earthtext index */
  .text3{
-  color: #e1bcebe0;
   float: left;
 }
 
@@ -62,7 +34,6 @@ ul{
 /* text blog flatline agency */
 .text6{
   text-align: center;
-  color: #e1bcebe0;
   font-size: larger;
   padding: 1%;
   
@@ -189,14 +160,14 @@ ul{
     font-size: 20px; 
     padding-left: 20px;
     padding-right: 20px;
-    color: #e1bcebe0;
+  
     padding-top: 1.5%;
   }
 /* end discepline */
 
 
 table{
-    color: #e1bcebe0;
+  
     margin-left: auto;
     margin-right: auto;
 }
@@ -204,12 +175,12 @@ table{
 
 
 .container1{
-  color: #e1bcebe0;
+
   text-align: center;
 }
 
 .Details2{
-  color: #e1bcebe0;
+
   text-align: center;
 }
 
@@ -260,9 +231,9 @@ footer{
 
 .circle {
   position: relative;
-  width: 150px;
-  height: 150px;
-  margin-top: -45%;
+  width: 300px;
+  height: 300px;
+  margin-top: 0%;
   border-radius: 50%;
   background: #FFCDB2;
   overflow: hidden;
