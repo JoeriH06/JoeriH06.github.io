@@ -1,5 +1,6 @@
 main{
   margin-top: 80px;
+  padding: 1%;
 }
 body {
     background-color: rgb(0, 0, 0);
@@ -19,6 +20,7 @@ h1 {
     position: relative;
     z-index: 999;
     margin-top: 70px;
+    padding: 1%;
 }
 
  /* earthtext index */
@@ -59,9 +61,9 @@ h1 {
   /*iceland picture*/
   .image2{
     border-radius: 50px;
-    width: 44%;
+    width: 66%;
     height: auto;
-    float: right;
+    
     border: thin silver solid;
     padding: 0.5em;
   }
@@ -167,7 +169,6 @@ h1 {
 
 
 table{
-  
     margin-left: auto;
     margin-right: auto;
 }
@@ -215,6 +216,8 @@ footer{
 .tableEC{
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(27, 127, 209);
+  color: #000;
+
 }
 
 
