@@ -15,12 +15,16 @@ a{
     color: darkcyan;
 }
 
+.profession-flatline{
+  padding: 5%;
+}
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
     position: relative;
     z-index: 999;
     margin-top: 70px;
-    padding: 1%;
+    padding: 0.5%;
 }
 
  /* earthtext index */
@@ -137,7 +141,7 @@ h1 {
     margin-bottom: -0.5%;
   }
 .image11{
-  width: 75%;
+  width: 85%;
   height: auto;
 }
 /* immage discepline */
