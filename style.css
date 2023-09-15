@@ -1,9 +1,10 @@
 main{
   margin-top: 80px;
   padding: 1%;
+  background-color: rgba(141, 255, 242, 0.218);
 }
 body {
-    background-color: rgb(0, 0, 0);
+  background-color: rgba(141, 255, 242, 0.218);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     display: flex; 
@@ -246,7 +247,7 @@ footer{
   overflow: hidden;
 }
 .circle.per- {
-  background-image: conic-gradient(#B5838D 10%, #FFCDB2 0);
+  background-image: conic-gradient(#B5838D 0%, #FFCDB2 0);
 }
 
 .circle .inner {
