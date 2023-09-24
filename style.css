@@ -1,19 +1,19 @@
 main{
   margin-top: 80px;
-  padding: 1%;
   background-color: #8EB897;
+  text-align: left;
 }
 body {
-    background-color: #8EB897;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex; 
-    flex-direction: column;
-    min-height: 100vh; 
+    background-color: #8EB897!important;
+    margin: 0 !important ;
+    padding: 0 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    display: flex !important; 
+    flex-direction: column !important;
+    min-height: 100vh !important; 
 }
 head{
-  background-color: #8EB897;
+  background-color: #335145;
 }
 
 a{
@@ -35,17 +35,7 @@ h1 {
     position: relative;
     z-index: 999;
     margin-top: 70px;
-    padding: 0.5%;
-}
-
- /* earthtext index */
- .text3{
-  float: left;
-}
-
-/* padding for text on index page */
-.text5{
-  padding: 1%;
+    padding: 2%;
 }
 
 /* text blog flatline agency */
@@ -64,26 +54,24 @@ h1 {
 
 /*phyton game*/
  .image1{
-    border-radius: 50px;
-    width: 20%;
+    width: 40%;
     height: auto;
     float: right;
-    border: thin silver solid;
-    margin: 0.5em;
     padding: 0.5em;
+    border: 2px solid #fff;
   }
 
   /*iceland picture*/
   .image2{
-    border-radius: 50px;
-    width: 66%;
+    border: 3px solid #fff;
+    width: 50%;
     height: auto;
-    
+    float: right;
     border: thin silver solid;
     padding: 0.5em;
   }
 
-  /* gometown */
+  /* hometown */
   .image3{
     border-radius: 50px;
     width: 50%;
@@ -98,9 +86,8 @@ h1 {
   .image4{
     vertical-align: auto;
     border-radius: 50px;
-    width: 10%;
+    width: 12%;
     height: auto;
-    float: left;
     border: thin silver solid;
     margin: 0.5em;
     padding: 0.5em;
@@ -108,14 +95,15 @@ h1 {
 
   /*messi*/
   .image5{
-    vertical-align: auto;
+   
     border-radius: 50px;
-    width: 20%;
+    width: 17%;
     height: auto;
     float: right;
     border: thin silver solid;
     margin: 0.5em;
     padding: 0.5em;
+    display: flex;
   }
 
   /*hz logo*/
@@ -169,10 +157,6 @@ h1 {
     justify-content: center;
   }
 
-  .container5{
-    float: right;
-  }
-  
 
   .text4{
     font-size: 20px; 
@@ -220,7 +204,7 @@ table{
 /*footer*/
 footer{
         margin-top: auto;
-        background-color: #669877;
+        background-color: #335145;
         color: white;
         padding: 10px;
 
@@ -229,7 +213,7 @@ footer{
 /*table */
 .tableEC{
   font-family: 'Courier New', Courier, monospace;
-  background-color: rgb(27, 127, 209);
+  background-color: rgb(95, 129, 91, 0.45);
   color: #000;
 
 }
@@ -238,12 +222,11 @@ footer{
 /* percentage circle */
 .wrap-circles {
   display: flex;
-  min-height: 100vh;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 2rem 1rem;
-  background: #000;
+  background: #a9d1b1;
 }
 
 .circle {
@@ -256,7 +239,7 @@ footer{
   overflow: hidden;
 }
 .circle.per- {
-  background-image: conic-gradient(#B5838D 10%, #FFCDB2 0);
+  background-image: conic-gradient(#000000 10%, #FFCDB2 0);
 }
 
 .circle .inner {
@@ -277,3 +260,46 @@ footer{
 }
 /*End of percentage circle */
 
+.my-motivation{
+  background-color:#8EB897;
+  float: left;
+  padding: 5%;
+}
+
+.why-international{
+  background-color: #669877;
+  padding: 3%;
+}
+
+.somethings-about-me{
+  text-align: left;
+  padding: 3%;
+  border: thin silver solid;
+
+}
+
+.my-familly{
+  text-align: left;
+  padding: 3%;
+  border: thin silver solid;
+
+}
+
+.hobbies{
+  text-align: left;
+  padding: 3%;
+  border: thin silver solid;
+
+}
+
+
+.maps{
+  background-color: #528864;
+  padding: 3%;
+  padding-top: 2%;
+  float: left;
+}
+
+.navbar-brand{
+  align-items: left;
+}
