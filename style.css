@@ -124,6 +124,15 @@ h1 {
     align-items: flex-start;
   }
 
+  .FAQimage{
+    width: 40%;
+    height: auto;
+    margin: 0.5em auto; 
+    padding-bottom: 10%;
+    display: block; 
+    position: relative;
+    top: 20px;
+  }
   /*hz logo*/
   .image6{
     max-width: 10%;
@@ -192,7 +201,15 @@ table{
     margin-right: auto;
 }
 
+/*section table*/
+.ectable{
+  margin-top: 5%;
+  background-color: #669877;
+}
 
+.NBSA{
+  background-color: #528864;
+}
 
 .container1{
 
@@ -237,7 +254,7 @@ table{
   justify-content: center;
   align-items: center;
   padding: 2rem 1rem;
-  background: #a9d1b1;
+  background: #528864;
 }
 
 .circle {
@@ -269,8 +286,8 @@ table{
   font-weight: 300;
   color: rgba(255, 255, 255, 0.75);
 }
-/*End of percentage circle */
 
+/*sections from index page*/
 .my-motivation{
   background-color:#8EB897;
   float: left;
@@ -282,6 +299,14 @@ table{
   padding: 3%;
 }
 
+.maps{
+  background-color: #528864;
+  padding: 3%;
+  padding-top: 2%;
+  float: left;
+}
+
+/*sections from about me page*/
 .somethings-about-me{
   text-align: left;
   padding: 3%;
@@ -303,11 +328,12 @@ table{
   padding-top: 5%;
 }
 
-
-.maps{
-  background-color: #528864;
+/*sections from the FAQ page*/
+.FAQ{
+  background-color: #669877;
   padding: 3%;
-  padding-top: 2%;
-  float: left;
 }
 
+.breaklines{
+  background-color: #528864;
+}
