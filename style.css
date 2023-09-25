@@ -1,8 +1,9 @@
-main{
-  margin-top: 80px;
-  background-color: #8EB897;
-  text-align: left;
+/*head*/
+head{
+  background-color: #335145;
 }
+
+/*body*/
 body {
     background-color: #8EB897!important;
     margin: 0 !important ;
@@ -12,12 +13,25 @@ body {
     flex-direction: column !important;
     min-height: 100vh !important; 
 }
-head{
+
+/*main*/
+main{
+  margin-top: 80px;
+  background-color: #8EB897;
+  text-align: left;
+}
+
+/*footer*/
+footer{
+  margin-top: auto;
   background-color: #335145;
+  color: white;
+  padding: 10px;
+
 }
 
 a{
-    color: darkcyan;
+    color: #e1e2c7 !important;
 }
 
 .profession-flatline{
@@ -36,6 +50,7 @@ h1 {
     z-index: 999;
     margin-top: 70px;
     padding: 2%;
+    font-weight: bold !important; 
 }
 
 /* text blog flatline agency */
@@ -52,17 +67,15 @@ h1 {
   padding-left: 0;
 }
 
-/*phyton game*/
- .image1{
-    width: 40%;
+.joeri{
+  width: 40%;
     height: auto;
     float: right;
     padding: 0.5em;
     border: 2px solid #fff;
-  }
-
+}
   /*iceland picture*/
-  .image2{
+  .iceland{
     border: 3px solid #fff;
     width: 50%;
     height: auto;
@@ -71,9 +84,8 @@ h1 {
     padding: 0.5em;
   }
 
-  /* hometown */
-  .image3{
-    border-radius: 50px;
+  
+  .eindgala{
     width: 50%;
     height: auto;
     float: right;
@@ -81,29 +93,35 @@ h1 {
     margin: 0.5em;
     padding: 0.5em;
   }
-  
   /* bram profile*/
-  .image4{
+  .papafoto{
     vertical-align: auto;
-    border-radius: 50px;
-    width: 12%;
+    width: 20%;
     height: auto;
     border: thin silver solid;
     margin: 0.5em;
     padding: 0.5em;
   }
 
+  .klas{
+    align-items: flex-start;
+    width: 20%;
+    height: auto;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+
+  }
+  
   /*messi*/
-  .image5{
-   
-    border-radius: 50px;
+  .messi{
     width: 17%;
     height: auto;
     float: right;
     border: thin silver solid;
     margin: 0.5em;
     padding: 0.5em;
-    display: flex;
+    align-items: flex-start;
   }
 
   /*hz logo*/
@@ -139,6 +157,7 @@ h1 {
     margin-left: 35px;
     margin-bottom: -0.5%;
   }
+
 .image11{
   width: 85%;
   height: auto;
@@ -200,14 +219,6 @@ table{
 
 .ulfeedback{
   padding: auto;
-}
-/*footer*/
-footer{
-        margin-top: auto;
-        background-color: #335145;
-        color: white;
-        padding: 10px;
-
 }
 
 /*table */
@@ -274,22 +285,22 @@ footer{
 .somethings-about-me{
   text-align: left;
   padding: 3%;
-  border: thin silver solid;
+ 
 
 }
 
 .my-familly{
   text-align: left;
   padding: 3%;
-  border: thin silver solid;
+  background-color:#669877;
 
 }
 
 .hobbies{
   text-align: left;
   padding: 3%;
-  border: thin silver solid;
-
+  background-color: #528864;
+  padding-top: 5%;
 }
 
 
@@ -300,6 +311,3 @@ footer{
   float: left;
 }
 
-.navbar-brand{
-  align-items: left;
-}

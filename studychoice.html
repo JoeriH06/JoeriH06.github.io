@@ -16,85 +16,70 @@
 
 <!-- Here I put my code for the navigationbar, the links for my other html pages are on here too-->
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-  <div class="container">
-  <a href="images/Joeriijsland.jpg" 
-      class="navbar-brand mb-0 h1">
-      <img 
-      class="d-inline-block"
-      src="images/Joeriijsland.jpg" height="30" width="50">
-     
-  </a> 
+    <div class="container-fluid">
+        <a href="images/Joeriijsland.jpg" class="navbar-brand mb-0 h1">
+            <img class="d-inline-block" src="images/Joeriijsland.jpg" height="30" width="50">
 
-  <button 
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      class="navbar-toggler"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-      >
-      <span class="navbar-toggler-icon"> </span>
-  </button>
+        </a>
 
-  <div 
-      class="collapse navbar-collapse" 
-      id="navbarNav">
-      <ul class="navbar-nav">
-          <li class="nav-item">
-              <a href="index.html" class="nav-link ">
-                  Home
-              </a>
-          </li>
-          <li class="nav-item">
-              <a href="profile.html" class="nav-link ">
-                  About me
-              </a>
-          </li>
-          <li class="nav-item">
-              <a href="faq.html" class="nav-link">
-                  FAQ
-              </a>
-          </li>
-          <li class="nav-item">
-              <a href="dashboard.html" class="nav-link">
-                  Dashboard
-              </a>
-          </li>
-          <li class="nav-item-active">
-              <a href="blog.html" class="nav-link">
-                  Blog
-              </a>
-          </li>
-          <li class="nav-item dropdown">
-              <a href="#" class="nav-link 
-              dropdown-toggle"
-              id="navbarDropdown" role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-              >
-                  Important links!
-              </a>
-              <ul class="dropdown-menu"
-              aria-labelledby="navbarDropdown">
-                  <li><a target="_blank" href="https://hz.nl/en/about-hz/organisation/regulations-and-documents#panel1945070" 
-                      class="dropdown-item">Regulations and documents</a></li>
-                  <li><a target="_blank" href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf" 
-                      class="dropdown-item">IR of HBO-ICT</a></li>
-                  <li><a target="_blank" href="https://learn.hz.nl/course/view.php?id=28881#section-0"
-                       class="dropdown-item">HZ Learn</a></li>
-                  <li><a target="_blank" href="https://www.microsoft.com/nl-nl/microsoft-teams/log-in"
-                       class="dropdown-item">Teams</a></li>
-                 <li><a target="_blank" href="https://portal.hz.nl/"
-                       class="dropdown-item">My hz</a></li>
-                  <li><a target="_blank" href="https://github.com/"
-                       class="dropdown-item">Github</a></li>
-              </ul>
-          </li>
-      </ul>
-  </div>
-</div>
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link ">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="profile.html" class="nav-link ">
+                        About me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link">
+                        FAQ
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="dashboard.html" class="nav-link">
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item-active">
+                    <a href="blog.html" class="nav-link">
+                        Blog
+                    </a>
+                </li>
+                <li class="dropdown d-flex ">
+
+                    <a href="#" class="nav-link 
+            dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Important links!
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a target="_blank"
+                                href="https://hz.nl/en/about-hz/organisation/regulations-and-documents#panel1945070"
+                                class="dropdown-item">Regulations and documents</a></li>
+                        <li><a target="_blank"
+                                href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
+                                class="dropdown-item">IR of HBO-ICT</a></li>
+                        <li><a target="_blank" href="https://learn.hz.nl/course/view.php?id=28881#section-0"
+                                class="dropdown-item">HZ Learn</a></li>
+                        <li><a target="_blank" href="https://www.microsoft.com/nl-nl/microsoft-teams/log-in"
+                                class="dropdown-item">Teams</a></li>
+                        <li><a target="_blank" href="https://portal.hz.nl/" class="dropdown-item">My hz</a></li>
+                        <li><a target="_blank" href="https://github.com/" class="dropdown-item">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 <main>
