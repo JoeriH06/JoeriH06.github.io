@@ -1,93 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>my profile</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
-          rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
+</head>
+
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a href="images/Joeriijsland.jpg" class="navbar-brand mb-0 h1">
+            <img class="d-inline-block" src="images/Joeriijsland.jpg" height="30" width="50">
+
+        </a>
+
+        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link ">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="profile.html" class="nav-link ">
+                        About me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link">
+                        FAQ
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="dashboard.html" class="nav-link">
+                        Dashboard
+                    </a>
+                </li>
+                <li class="nav-item-active">
+                    <a href="blog.html" class="nav-link">
+                        Blog
+                    </a>
+                </li>
+                <li class="dropdown d-flex ">
+
+                    <a href="#" class="nav-link 
+            dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Important links!
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a target="_blank"
+                                href="https://hz.nl/en/about-hz/organisation/regulations-and-documents#panel1945070"
+                                class="dropdown-item">Regulations and documents</a></li>
+                        <li><a target="_blank"
+                                href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
+                                class="dropdown-item">IR of HBO-ICT</a></li>
+                        <li><a target="_blank" href="https://learn.hz.nl/course/view.php?id=28881#section-0"
+                                class="dropdown-item">HZ Learn</a></li>
+                        <li><a target="_blank" href="https://www.microsoft.com/nl-nl/microsoft-teams/log-in"
+                                class="dropdown-item">Teams</a></li>
+                        <li><a target="_blank" href="https://portal.hz.nl/" class="dropdown-item">My hz</a></li>
+                        <li><a target="_blank" href="https://github.com/" class="dropdown-item">Github</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
 
 <main>
-  <body>
-    <!--Here I put my code for the navigationbar, the links for my other html pages are on here too-->
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a href="images/Joeriijsland.jpg" class="navbar-brand mb-0 h1">
-                <img class="d-inline-block" src="images/Joeriijsland.jpg" height="30" width="50">
-    
-            </a>
-    
-            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"> </span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link ">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="profile.html" class="nav-link ">
-                            About me
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="faq.html" class="nav-link">
-                            FAQ
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="dashboard.html" class="nav-link">
-                            Dashboard
-                        </a>
-                    </li>
-                    <li class="nav-item-active">
-                        <a href="blog.html" class="nav-link">
-                            Blog
-                        </a>
-                    </li>
-                    <li class="dropdown d-flex ">
-    
-                        <a href="#" class="nav-link 
-                dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Important links!
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a target="_blank"
-                                    href="https://hz.nl/en/about-hz/organisation/regulations-and-documents#panel1945070"
-                                    class="dropdown-item">Regulations and documents</a></li>
-                            <li><a target="_blank"
-                                    href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2019-2020/2020-2021-ICT-Implementation-Regulations-CER-HZ-DEF1.0.pdf"
-                                    class="dropdown-item">IR of HBO-ICT</a></li>
-                            <li><a target="_blank" href="https://learn.hz.nl/course/view.php?id=28881#section-0"
-                                    class="dropdown-item">HZ Learn</a></li>
-                            <li><a target="_blank" href="https://www.microsoft.com/nl-nl/microsoft-teams/log-in"
-                                    class="dropdown-item">Teams</a></li>
-                            <li><a target="_blank" href="https://portal.hz.nl/" class="dropdown-item">My hz</a></li>
-                            <li><a target="_blank" href="https://github.com/" class="dropdown-item">Github</a></li>
-                        </ul>
+    <div class="profession-flatline-h1">
+        <h1>Potential Employers of Interest</h1>
+    </div>
+    <div class="profession-flatline">
+
+        <details>
+            <summary>Flatline Agency</summary>
+            <div class="flatline">
+
+                <B>Who?</B>
+                <br>The company Flatinline Agency. Flatline Agency is a global disruptor in custom development & design
+                experiences based in Amsterdam, New york and Bali.
+                They deliver high-quality work - while leveraging the newest and best techniques available.</br>
+
+                <br><b>What roles are there?</b>
+                <br>They have many different roles inside the company. Such as:
+                <ul>
+                    <li><a target="_blank" href="https://www.flatlineagency.com/services/ecommerce/">ecommerce</a></li>
+                    <li><a target="_blank" href="https://www.flatlineagency.com/services/marketing-growth/">Marketing &
+                            development</a> </li>
+                    <li><a target="_blank"
+                            href="https://www.flatlineagency.com/services/custom-development/">development</a></li>
+                    <li><a target="_blank" href="https://www.flatlineagency.com/services/corporate-sites/">sites</a>
                     </li>
                 </ul>
+
+                <br><b> The Culture inside Flatline Agency</b>
+                <br> The culture inside Flatinline Agency is very casual. People help eachother in a good working
+                environment.
+                The reason it is casual is because of the "game room". They have a game room for when you need to take a
+                break.
+                It is ofcourse business like, but the office makes you feel like home. Here is an example of a working
+                environment:
+
+                <img src="images/Screenshot 2023-09-12 230720.png" alt="screenshot of working environment"
+                    class="image11">
+
+                <br>You can find the image <a target="_blank" href="https://www.flatlineagency.com/about-us/">HERE</a>.
+
+                <h2> What platform do they use?</h2>
+                They use all kind of platforms. they code and improve everything from Custom platforms, progressive web
+                apps, apps, websites, SAAS, and AI / Deep learning applications in Python, NodeJS, WordPress, React
+                (Native/Gatsby) & Flutter.
+
+
+                <h3>Would I see myself working here?</h3>
+
+                I would see myself working there, because they operate all around the world. This would mean that I can
+                collaborate with
+                diverse talent and make a significant impact in the digital world. Also working here means that i'll be
+                part of a
+                team that consistently delivers high-quality, innovative solutions that challenge and inspire.
+
             </div>
-        </div>
-    </nav>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    
-</body>
+        </details>
+
+        <details>
+            <summary> enappsys</summary>
+            <div class="enappsys">
+
+            </div>
+        </details>
+
+        <details>
+            <summary> Date to Value</summary>
+            <div class="datetovalue">
+
+            </div>
+        </details>
+    </div>
 </main>
+</body>
+
 
 <footer>
-  <img class="image6" src="images/hz-logo.svg" alt="this is a picture of the hz">
-  <img class="image7" src="images/instagram-social-media-icon-design-template-vector-png_126996.png" alt="picture of instagram">
-  <img class="image8" src="images/facebook.png" alt="facebook picture">
-  <img class="image9" src="images/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt="linkd in">
-  <p style="float: right; color: white;">Author: Joeri Harreman </p>
+    <img class="image6" src="images/hz-logo.svg" alt="this is a picture of the hz">
+    <img class="image7" src="images/instagram-social-media-icon-design-template-vector-png_126996.png"
+        alt="picture of instagram">
+    <img class="image8" src="images/facebook.png" alt="facebook picture">
+    <img class="image9" src="images/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt="linkd in">
+    <p style="float: right; color: white;">Author: Joeri Harreman </p>
 </footer>

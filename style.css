@@ -31,12 +31,97 @@ footer{
 }
 
 a{
-    color: #e1e2c7 !important;
+    color: #fff !important;
 }
 
 .profession-flatline{
-  padding: 5%;
+  padding-left: 3%;
 }
+
+.profession-flatline-h1{
+  text-align: left;
+  padding-left: 3%;
+}
+
+details {
+  width: 75%;
+  min-height: 5px;
+  max-width: 700px;
+  padding: 5px 50px 25px 25px;
+  margin: 0 0 0 3rem; 
+  position: relative;
+  font-size: 22px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 15px;
+  box-sizing: border-box;
+  transition: all .3s;
+  background-color: #528864;
+}
+
+details + details {
+  margin-top: 20px;
+}
+
+details[open] {
+  min-height: 50px;
+  background-color: #528864;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.2);
+}
+
+details p {
+  color: black;
+  font-weight: 300;
+}
+
+summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+summary:focus {
+  outline: none;
+  
+}
+
+summary:focus::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 0 0 2px #335145;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+.control-icon {
+  fill: rebeccapurple;
+  transition: .3s ease;
+  pointer-events: none;
+}
+
+.control-icon-close {
+  display: none;
+}
+
+details[open] .control-icon-close {
+  display: initial;
+  transition: .3s ease;
+}
+
+details[open] .control-icon-expand {
+  display: none;
+}
+
 
 .nav-item-active {
 
@@ -54,17 +139,29 @@ h1 {
 }
 
 /* text blog flatline agency */
-.text6{
-  text-align: center;
+.flatline{
+  text-align: left;
   font-size: larger;
   padding: 1%;
   
 }
 
-.text6 ul{
-  text-align: center;
+.flatline ul{
+  text-align: left;
   list-style: inside;
   padding-left: 0;
+}
+
+.enappsys{
+  text-align: left;
+  font-size: larger;
+  padding: 1%;
+}
+
+.datetovalue{
+  text-align: left;
+  font-size: larger;
+  padding: 1%;
 }
 
 .joeri{
@@ -178,14 +275,6 @@ h1 {
    padding-bottom: 2%;
   }
 
- 
-  .container2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-
   .text4{
     font-size: 20px; 
     padding-left: 20px;
@@ -193,15 +282,31 @@ h1 {
   
     padding-top: 1.5%;
   }
-/* end discepline */
 
+
+/*section table*/
+.table-dark {
+  border-collapse: collapse; 
+  width: 100%;
+}
+
+.table-dark th, .table-dark td {
+  border: 1px solid #000; 
+  padding: 8px;
+  text-align: left;
+}
+
+.table-dark th {
+  background-color: #333; 
+  color: #fff; 
+}
 
 table{
     margin-left: auto;
     margin-right: auto;
+    border-width: 3px ;
 }
 
-/*section table*/
 .ectable{
   margin-top: 5%;
   background-color: #669877;
@@ -210,17 +315,6 @@ table{
 .NBSA{
   background-color: #528864;
 }
-
-.container1{
-
-  text-align: center;
-}
-
-.Details2{
-
-  text-align: center;
-}
-
 
 .feedback{
   margin-top: 0%;
@@ -289,21 +383,26 @@ table{
 
 /*sections from index page*/
 .my-motivation{
-  background-color:#8EB897;
+  background-color: #8EB897;
   float: left;
   padding: 5%;
 }
 
 .why-international{
   background-color: #669877;
-  padding: 3%;
+  padding: 3% 3% 2% 3%;
 }
 
 .maps{
   background-color: #528864;
   padding: 3%;
   padding-top: 2%;
-  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*sections from about me page*/
@@ -330,10 +429,26 @@ table{
 
 /*sections from the FAQ page*/
 .FAQ{
-  background-color: #669877;
-  padding: 3%;
+  background-color: #8EB897;
+  padding-left: 3%;
+  padding-bottom: 3%;
 }
 
 .breaklines{
+  background-color: #528864;
+}
+
+
+.blogh1{
+  background-color: #8EB897;
+  padding-left: 3%;
+}
+
+.blogdetails{
+  padding-left: 3%;
+  background-color: #8EB897;
+}
+
+.emptyspaceblog{
   background-color: #528864;
 }
