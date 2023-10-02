@@ -1,9 +1,9 @@
-/*head*/
+/*----------------------------------head----------------------------------*/
 head{
   background-color: #335145;
 }
 
-/*body*/
+/*----------------------------------body----------------------------------*/
 body {
     background-color: #8EB897!important;
     margin: 0 !important ;
@@ -14,14 +14,14 @@ body {
     min-height: 100vh !important; 
 }
 
-/*main*/
+/* ---------------------------------- main ----------------------------------*/
 main{
   margin-top: 80px;
   background-color: #8EB897;
   text-align: left;
 }
 
-/*footer*/
+/*----------------------------------footer----------------------------------*/
 footer{
   margin-top: auto;
   background-color: #335145;
@@ -30,19 +30,20 @@ footer{
 
 }
 
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  z-index: 999;
+  margin-top: 70px;
+  padding: 2%;
+  font-weight: bold !important; 
+}
+
 a{
     color: #fff !important;
 }
 
-.profession-flatline{
-  padding-left: 3%;
-}
-
-.profession-flatline-h1{
-  text-align: left;
-  padding-left: 3%;
-}
-
+/*----------------------------------details for blog and faq----------------------------------*/
 details {
   width: 75%;
   min-height: 5px;
@@ -122,23 +123,29 @@ details[open] .control-icon-expand {
   display: none;
 }
 
-
+/*----------------------------------navbar active----------------------------------*/
 .nav-item-active {
-
   font-weight: bold;
-
 }
 
-h1 {
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-    z-index: 999;
-    margin-top: 70px;
-    padding: 2%;
-    font-weight: bold !important; 
+/* ---------------------------------- feedback for blogpages ---------------------------------- */
+.feedback{
+  margin-top: 0%;
+  padding: auto;
+  white-space: pre-line;
+  line-height: 1.0;
 }
 
-/* text blog flatline agency */
+.feedbackH1{
+  padding: auto;
+  margin-bottom: 0%;
+}
+
+.ulfeedback{
+  padding: auto;
+}
+
+/* ---------------------------------- text blog flatline agency ----------------------------------*/
 .flatline{
   text-align: left;
   font-size: larger;
@@ -152,18 +159,35 @@ h1 {
   padding-left: 0;
 }
 
+.flatlineworkspace{
+    width: 85%;
+    height: auto;
+}
+
+.profession-flatline{
+  padding-left: 3%;
+}
+  
+.profession-flatline-h1{
+  text-align: left;
+  padding-left: 3%;
+}
+
+/* ---------------------------------- text blog enappsys ---------------------------------- */
 .enappsys{
   text-align: left;
   font-size: larger;
   padding: 1%;
 }
 
+/*---------------------------------- text blog date to value ----------------------------------*/
 .datetovalue{
   text-align: left;
   font-size: larger;
   padding: 1%;
 }
 
+/*---------------------------------- Pictures in index page----------------------------------*/
 .joeri{
   width: 40%;
     height: auto;
@@ -171,7 +195,7 @@ h1 {
     padding: 0.5em;
     border: 2px solid #fff;
 }
-  /*iceland picture*/
+  
   .iceland{
     border: 3px solid #fff;
     width: 50%;
@@ -180,8 +204,8 @@ h1 {
     border: thin silver solid;
     padding: 0.5em;
   }
-
   
+  /*---------------------------------- pictures in about me page----------------------------------*/
   .eindgala{
     width: 50%;
     height: auto;
@@ -190,7 +214,7 @@ h1 {
     margin: 0.5em;
     padding: 0.5em;
   }
-  /* bram profile*/
+
   .papafoto{
     vertical-align: auto;
     width: 20%;
@@ -210,7 +234,7 @@ h1 {
 
   }
   
-  /*messi*/
+  
   .messi{
     width: 17%;
     height: auto;
@@ -221,16 +245,9 @@ h1 {
     align-items: flex-start;
   }
 
-  .FAQimage{
-    width: 40%;
-    height: auto;
-    margin: 0.5em auto; 
-    padding-bottom: 10%;
-    display: block; 
-    position: relative;
-    top: 20px;
-  }
-  /*hz logo*/
+  /*----------------------------------Pictures in footer----------------------------------*/
+
+  /* facebook */
   .image6{
     max-width: 10%;
     max-height: auto;
@@ -264,18 +281,15 @@ h1 {
     margin-bottom: -0.5%;
   }
 
-.image11{
-  width: 85%;
-  height: auto;
-}
-/* immage discepline */
-  .image10{
+
+/*---------------------------------- immage discepline in study choice page---------------------------------- */
+  .disceplinepic{
    flex-basis: 40%;
    max-width: 100%;
    padding-bottom: 2%;
   }
 
-  .text4{
+  .textdiscepline{
     font-size: 20px; 
     padding-left: 20px;
     padding-right: 20px;
@@ -284,7 +298,7 @@ h1 {
   }
 
 
-/*section table*/
+/*---------------------------------- section table in dashboard page ---------------------------------- */
 .table-dark {
   border-collapse: collapse; 
   width: 100%;
@@ -316,23 +330,6 @@ table{
   background-color: #528864;
 }
 
-.feedback{
-  margin-top: 0%;
-  padding: auto;
-  white-space: pre-line;
-  line-height: 1.0;
-}
-
-.feedbackH1{
-  padding: auto;
-  margin-bottom: 0%;
-}
-
-.ulfeedback{
-  padding: auto;
-}
-
-/*table */
 .tableEC{
   font-family: 'Courier New', Courier, monospace;
   background-color: rgb(95, 129, 91, 0.45);
@@ -341,7 +338,8 @@ table{
 }
 
 
-/* percentage circle */
+/*---------------------------------- Circle of ec in dashboard page  ---------------------------------- */
+
 .wrap-circles {
   display: flex;
   flex-wrap: wrap;
@@ -381,7 +379,7 @@ table{
   color: rgba(255, 255, 255, 0.75);
 }
 
-/*sections from index page*/
+/*----------------------------------sections from index page----------------------------------*/
 .my-motivation{
   background-color: #8EB897;
   float: left;
@@ -399,18 +397,11 @@ table{
   padding-top: 2%;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-/*sections from about me page*/
+/*---------------------------------- sections from about me page ----------------------------------*/
 .somethings-about-me{
   text-align: left;
   padding: 3%;
- 
-
 }
 
 .my-familly{
@@ -427,17 +418,14 @@ table{
   padding-top: 5%;
 }
 
-/*sections from the FAQ page*/
+/*---------------------------------- sections from the FAQ page ----------------------------------*/
 .FAQ{
   background-color: #8EB897;
   padding-left: 3%;
   padding-bottom: 3%;
 }
 
-.breaklines{
-  background-color: #528864;
-}
-
+/* ---------------------------------- sections from the blog page ---------------------------------- */
 
 .blogh1{
   background-color: #8EB897;
@@ -447,8 +435,4 @@ table{
 .blogdetails{
   padding-left: 3%;
   background-color: #8EB897;
-}
-
-.emptyspaceblog{
-  background-color: #528864;
 }
