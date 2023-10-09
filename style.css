@@ -39,24 +39,32 @@ h1 {
   font-weight: bold !important; 
 }
 
-a{
-    color: #fff !important;
+h2{
+  z-index: 999;
+  padding: 1% !important;
+  font-weight: bold !important; 
+  font-size: 22px !important;
 }
 
-/*----------------------------------details for blog and faq----------------------------------*/
-details {
-  width: 75%;
-  min-height: 5px;
-  max-width: 700px;
-  padding: 5px 50px 25px 25px;
-  margin: 0 0 0 3rem; 
-  position: relative;
-  font-size: 22px;
-  border: 1px solid rgba(0, 0, 0, .1);
-  border-radius: 15px;
-  box-sizing: border-box;
-  transition: all .3s;
-  background-color: #528864;
+a{
+    color: #fff !important;
+  }
+  
+  /*----------------------------------details for blog and faq----------------------------------*/
+  details {
+    width: 75%;
+    min-height: 5px;
+    max-width: 700px;
+    padding: 5px 50px 25px 25px;
+    margin: 0 0 0 3rem; 
+    position: relative;
+    font-size: 22px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: all .3s;
+    background-color: #528864;
+    font-weight: bold;
 }
 
 details + details {
@@ -67,7 +75,8 @@ details[open] {
   min-height: 50px;
   background-color: #528864;
   box-shadow: 2px 2px 20px rgba(0,0,0,.2);
-}
+  z-index: -0.1;
+} 
 
 details p {
   color: black;
@@ -92,7 +101,6 @@ summary:focus::after {
   height: 100%;
   width: 100%;
   display: block;
-  position: absolute;
   top: 0;
   left: 0;
   box-shadow: 0 0 0 2px #335145;
@@ -117,17 +125,24 @@ summary::-webkit-details-marker {
 details[open] .control-icon-close {
   display: initial;
   transition: .3s ease;
-}
+} 
 
 details[open] .control-icon-expand {
   display: none;
-}
+} 
 
 /*----------------------------------navbar active----------------------------------*/
 .nav-item-active {
   font-weight: bold;
 }
 
+.dropdown-item{
+ background-color: #000 !important ;
+}
+
+.dropdown-menu{ 
+ background-color: #000 !important;
+} 
 /* ---------------------------------- feedback for blogpages ---------------------------------- */
 .feedback{
   margin-top: 0%;
@@ -180,25 +195,44 @@ details[open] .control-icon-expand {
   padding: 1%;
 }
 
-/*---------------------------------- text blog date to value ----------------------------------*/
-.datetovalue{
+/*---------------------------------- text blog Utility ----------------------------------*/
+.Utility{
   text-align: left;
   font-size: larger;
   padding: 1%;
 }
 
 /*---------------------------------- Pictures in index page----------------------------------*/
-.joeri{
-  width: 40%;
-    height: auto;
-    float: right;
-    padding: 0.5em;
-    border: 2px solid #fff;
-}
+  .joeri{
+    width: 40%;
+      height: auto;
+      float: right;
+      padding: 0.5em;
+      border: 2px solid #fff;
+  }
   
   .iceland{
     border: 3px solid #fff;
     width: 50%;
+    height: auto;
+    float: right;
+    border: thin silver solid;
+    padding: 0.5em;
+  }
+
+  .francemountain{
+    border: 3px solid #fff;
+    width: 15%;
+    height: auto;
+    float: right;
+    border: thin silver solid;
+    padding: 0.5em;
+  }
+
+  .eiffeltower{
+    
+    border: 3px solid #fff;
+    width: 15%;
     height: auto;
     float: right;
     border: thin silver solid;
