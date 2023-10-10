@@ -146,9 +146,8 @@ details[open] .control-icon-expand {
 /* ---------------------------------- feedback for blogpages ---------------------------------- */
 .feedback{
   margin-top: 0%;
-  padding: auto;
-  white-space: pre-line;
   line-height: 1.0;
+  padding: 3%;
 }
 
 .feedbackH1{
@@ -157,7 +156,7 @@ details[open] .control-icon-expand {
 }
 
 .ulfeedback{
-  padding: auto;
+  padding-left: 5%;
 }
 
 /* ---------------------------------- text blog flatline agency ----------------------------------*/
@@ -318,16 +317,18 @@ details[open] .control-icon-expand {
 
 /*---------------------------------- immage discepline in study choice page---------------------------------- */
   .disceplinepic{
-   flex-basis: 40%;
-   max-width: 100%;
-   padding-bottom: 2%;
+    max-width: 30%;
+    max-height: auto;
+    border-radius: 2px;
+    margin-top: 15%;
+    padding-right: 2%;
+    float: right;
   }
 
   .textdiscepline{
-    font-size: 20px; 
-    padding-left: 20px;
-    padding-right: 20px;
-  
+
+    padding-left: 3%;
+    padding-right: 20%;
     padding-top: 1.5%;
   }
 
@@ -393,7 +394,7 @@ table{
   overflow: hidden;
 }
 .circle.per- {
-  background-image: conic-gradient(#000000 10%, #FFCDB2 0);
+  background-image: conic-gradient(#000000 4.16%, #FFCDB2 0);
 }
 
 .circle .inner {
