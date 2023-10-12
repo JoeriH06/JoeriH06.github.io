@@ -221,23 +221,24 @@ details[open] .control-icon-expand {
 
   .francemountain{
     border: 3px solid #fff;
-    width: 15%;
+    width: 20%;
     height: auto;
     float: right;
     border: thin silver solid;
     padding: 0.5em;
+    margin: 6% 0 0 0;
   }
 
-  .eiffeltower{
-    
+  .eiffeltower {
     border: 3px solid #fff;
     width: 15%;
     height: auto;
     float: right;
     border: thin silver solid;
     padding: 0.5em;
-  }
-  
+    margin: 4% 0 0 0;
+}
+
   /*---------------------------------- pictures in about me page----------------------------------*/
   .eindgala{
     width: 50%;
